@@ -1,7 +1,7 @@
 {
   "name": "@kne/search-input",
   "version": "0.1.0",
-  "description": "停止输入后执行搜索",
+  "description": "输入关键字后执行搜索",
   "syntax": {
     "esmodules": true
   },
