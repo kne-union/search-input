@@ -10,6 +10,13 @@
           "name": "_SearchInput",
           "packageName": "@kne/current-lib_search-input",
           "importStatement": "import * as _SearchInput from \"@kne/search-input\""
+        },
+        {
+          "name": "antd",
+          "packageName": "antd"
+        },
+        {
+          "packageName": "@kne/current-lib_search-input/dist/index.css"
         }
       ]
     }

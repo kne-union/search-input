@@ -71,7 +71,8 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-dom": "*"
+    "react-dom": "*",
+    "antd": ">=5"
   },
   "devDependencies": {
     "@kne/microbundle": "^0.15.5",
@@ -82,5 +83,10 @@
     "prettier": "^3.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.5.1",
+    "classnames": "^2.5.1",
+    "use-debounce": "^10.0.4"
   }
 }

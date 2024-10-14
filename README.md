@@ -30,15 +30,18 @@ npm i --save @kne/search-input
 
 - 这里填写示例标题
 - 这里填写示例说明
-- _SearchInput(@kne/current-lib_search-input)[import * as _SearchInput from "@kne/search-input"]
+- _SearchInput(@kne/current-lib_search-input)[import * as _SearchInput from "@kne/search-input"],antd(antd),(@kne/current-lib_search-input/dist/index.css)
 
 ```jsx
-const {default:SearchInput} = _SearchInput;
+const { default: SearchInput } = _SearchInput;
+const { Flex } = antd;
 
-const BaseExample = ()=>{
-    return <div>
-        <SearchInput />
-    </div>;
+const BaseExample = () => {
+  return <Flex vertical gap={8}>
+    <SearchInput />
+    <SearchInput simple />
+    <SearchInput showSearchButton />
+  </Flex>;
 };
 
 render(<BaseExample />);

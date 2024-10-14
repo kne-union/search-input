@@ -1,3 +1,17 @@
-.tips {
-  color: #4f185a;
+.search-input {
+  &.is-simple {
+    :global(.ant-input) {
+      border-color: transparent;
+      box-shadow: none;
+    }
+
+    :global(.ant-input-prefix) {
+      color: var(--primary-color);
+    }
+
+    :global(.ant-input-affix-wrapper) {
+      border-color: var(--primary-color);
+      box-shadow: none !important;
+    }
+  }
 }
